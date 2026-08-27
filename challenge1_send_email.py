@@ -35,7 +35,7 @@ def send_email():
     msg.attach(MIMEText(body, 'plain'))
 
     # Image Attachmnt
-    filename = "./sample.jpg" # Put here your image nam
+    filename = "./sample.jpg" # Put here your image name
     try:
         attachment = open(filename, "rb") # opened image in read binary format
 
