@@ -17,7 +17,7 @@ def send_email():
     # Your details
     sender_email = "your_email@gmail.com" # Your_email
     sender_password = "your_password" # Your_password
-    receiver_email = "nitingoswami86@gmail.com"
+    receiver_email = "hr@ignitershub.com"
 
     # Email Envelop
     msg = MIMEMultipart()
